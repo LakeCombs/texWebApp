@@ -1,0 +1,43 @@
+.CardType2 {
+	width: 400px;
+	height: 300px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 2px 0px lightgray;
+}
+
+.CardType2Image {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.CardType2 > h3 {
+	color: white;
+	margin-left: 20px;
+	font-size: 20px;
+	font-family: Poppins;
+	font-weight: bold;
+}
+
+.CardType2 > p {
+	color: white;
+	margin-left: 20px;
+	font-size: 15px;
+	font-style: italic;
+	margin-right: 20px;
+}
+
+@media screen and (max-width: 425px) {
+
+    .CardType2{
+        height:auto;
+    }
+
+	.CardType2 {
+		font-size: 15px;
+	}
+
+	.CardType2 > p {
+		font-size: 15px;
+	}
+}

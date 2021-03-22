@@ -1,0 +1,30 @@
+.CardType4 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 200px;
+	margin: 10px;
+	text-align: center;
+}
+
+.CardType4 > img {
+	height: 60px;
+	width: 60px;
+	background-color: lightgray;
+	border-radius: 100%;
+	object-fit: cover;
+	border: 2px solid rgb(114, 7, 7);
+}
+
+.CardType4 > h2 {
+	font-size: 20px;
+	color: red;
+	font-weight: bold;
+	font-family: Poppins;
+}
+
+.CardType4 > p {
+	font-weight: lighter;
+	font-size: 15px;
+}

@@ -40,15 +40,18 @@ function Header() {
 			<img className="Logo" />
 			<div className="HederSide">
 				<Dropdown overlay={menu} placement="bottomCenter">
-					<p> about</p>
+					<p className="textItem"> about</p>
 				</Dropdown>
 				<Dropdown overlay={menu} placement="bottomCenter">
-					<p>services</p>
+					<p className="textItem"> services</p>
 				</Dropdown>
 				<Dropdown overlay={menu} placement="bottomCenter">
-					<p>products</p>
+					<p className="textItem"> products</p>
 				</Dropdown>
-				<Button
+				<Dropdown overlay={menu} placement="bottomCenter">
+					<p className="textItem"> detils</p>
+				</Dropdown>
+				{/* <Button
 					style={{
 						backgroundColor: "red",
 						color: "white",
@@ -58,7 +61,7 @@ function Header() {
 						fontSize: "20px"
 					}}>
 					Contact Us
-				</Button>
+				</Button> */}
 			</div>
 		</div>
 	);

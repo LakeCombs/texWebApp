@@ -1,0 +1,22 @@
+.theCardHolder {
+	width: 100%;
+	height: 400px;
+	padding: 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.CardStyle {
+	width: 400px;
+	height: 300px;
+	box-sizing: border-box;
+	outline: 1px solid lightgray;
+	margin: 20px;
+	transition: all 300ms ease-out;
+}
+
+.CardStyle:hover {
+	transform: scale(1.02);
+    box-shadow: 2px lightgray;
+}

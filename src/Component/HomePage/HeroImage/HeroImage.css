@@ -1,0 +1,104 @@
+.HeroImage {
+	width: 100%;
+	height: 550px;
+	background-image: url("../../photos/young-woman-workingtyping-on-her-laptop.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 100%;
+	border-bottom-left-radius: 400px;
+	border-bottom-right-radius: 400px;
+}
+
+/* .colorbackground {
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	background-color: rgba(228, 5, 5, 0.878);
+	opacity: 1;
+	display: flex;
+	align-items: center;
+
+	border-bottom-left-radius: 400px;
+	border-bottom-right-radius: 400px;
+} */
+
+.HeroImageContents {
+	background-color: rgba(228, 5, 5, 0.878);
+
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: start;
+	border-bottom-left-radius: 400px;
+	border-bottom-right-radius: 400px;
+}
+.HeroImageContents > h2 {
+	font-size: 30px;
+	color: white;
+	font-weight: bolder;
+	margin-top: -50px;
+}
+
+.HeroImageContents > h3 {
+	color: white;
+	font-size: 20px;
+	font-family: Poppins;
+}
+
+@media screen and (max-width: 1024px) {
+	.HeroImage {
+		border-bottom-left-radius: 0px;
+		height: 500px;
+	}
+
+	.HeroImageContents {
+		width: 100%;
+		height: 100%;
+		border-bottom-left-radius: 0px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.HeroImage {
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+	}
+	.HeroImageContents {
+		border-bottom-left-radius: 0px;
+		border-bottom-right-radius: 0px;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.HeroImage {
+		height: 200px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.HeroImageContents {
+		width: 100%;
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.HeroImageContents > h2 {
+		margin-top:10px;
+		font-size: 15px;
+	}
+
+	.HeroImageContents > h3 {
+		font-size: 13px;
+	}
+}

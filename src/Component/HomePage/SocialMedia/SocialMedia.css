@@ -1,0 +1,28 @@
+.socailMedia {
+	background-image: linear-gradient(to bottom, red, rgb(65, 2, 2));
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.SocialMediaContent {
+	width: 80%;
+	height: auto;
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.SocialMediaContent > img {
+	height: 30px;
+	width: 30px;
+	margin-bottom: 40px;
+	margin: 10px;
+	transition: all 400ms ease-out  ;
+}
+
+.SocialMediaContent > img :hover {
+	transform: scale(1.06);
+}

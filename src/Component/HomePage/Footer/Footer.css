@@ -1,0 +1,39 @@
+.Footer {
+	margin-top: 50px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	background-image: linear-gradient(to bottom, white, red);
+}
+.Footercontent {
+	width: 80%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 30px;
+	flex-wrap: wrap;
+}
+
+.footerline {
+	display: flex;
+	flex-direction: column;
+	width: 150px;
+	height: auto;
+}
+
+.footerLineContent > li {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	transition: all ease-in-out 400ms;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Poppins;
+    color:rgb(12, 1, 1);
+}
+
+.footerLineContent > li:hover {
+	cursor: pointer;
+	transform: scale(1.05);
+    text-decoration: underline;
+}

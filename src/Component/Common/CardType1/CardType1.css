@@ -1,0 +1,54 @@
+.TheType1Card {
+	width: 300px;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	/* background-color: blue; */
+	margin-bottom: 20px;
+	/* align-items: center; */
+}
+
+.TheType1CardImage {
+	width: 100px;
+	height: 100px;
+	border-radius: 100%;
+	background-size: cover;
+	background-color: rgb(240, 240, 240);
+	object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+	.TheType1Card {
+		/* background-color: red; */
+		justify-content: flex-start;
+		display: flex;
+		flex-direction: column;
+		width: 250px;
+		/* border: 1px solid gray; */
+		box-shadow: 2px solid gray;
+		/* background-color: blue; */
+		align-items: center;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.TheType1Card {
+		border-bottom: 2px solid gray;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.TheType1Card {
+		height: 200px;
+	}
+
+	.TheType1CardImage {
+		height: 50px;
+		width: 50px;
+	}
+	.TheType1Card>p{
+		font-size:15px;
+	}
+}

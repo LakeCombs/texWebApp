@@ -1,0 +1,67 @@
+.theNextPart {
+	width: 100%;
+	display: flex;
+	margin-top: 50px;
+	/* background-color: blue; */
+	height: auto;
+	justify-content: center;
+}
+
+.TheNextPartContent {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.theTextCard {
+	width: 350px;
+	height: auto;
+	margin-top: 20px;
+	/* background-color: lightgray; */
+}
+
+.theTextCard > h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(75, 75, 75);
+	font-family: poppins;
+}
+
+.theTextCard > p {
+	font-size: 15px;
+	font-weight: bold;
+	color: rgb(75, 75, 75);
+	font-family: poppins;
+}
+
+.theType1CardHolder {
+	width: 50%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+	.theTextCard {
+		width: 100%;
+	}
+	.theTextCard > p {
+		width: 100%;
+	}
+	.theType1CardHolder {
+		/* flex-wrap: wrap; */
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.theNextPart {
+		margin-top: -10px;
+	}
+}

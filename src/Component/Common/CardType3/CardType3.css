@@ -1,0 +1,47 @@
+.CardType3 {
+	display: flex;
+	width: 500px;
+	height: auto;
+	flex-direction: column;
+	/* border:1px solid red; */
+	box-shadow: 0px 0px 2px 0px rgb(141, 138, 138);
+	margin: 20px;
+	padding: 10px;
+	font-family: poppins;
+}
+
+.CardType3:hover {
+	background-color: rgb(114, 7, 7);
+	box-shadow: 0px 0px 3px 0px solid red;
+	outline: 4px white;
+	color: white;
+	cursor: pointer;
+}
+
+.CardType3Header {
+	width: 100%;
+	justify-content: space-between;
+	display: flex;
+	outline: 2px white;
+	color: white;
+}
+
+.CardType3Header>h2 {
+	color: rgb(100, 100, 100);
+}
+
+@media screen and (max-width: 375px) {
+	.CardType3 {
+		font-size: 12px;
+		background-color: rgb(114, 7, 7);
+		color: white;
+        font-family: Poppins;
+	}
+
+    .CardType3Header>h2{
+        color: white;
+        font-size: 12px;
+        font-family: Poppins;
+
+    }
+}
